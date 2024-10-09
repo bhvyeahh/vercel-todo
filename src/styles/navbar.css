@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.navbar{
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    margin: 4px auto;
+    height: 35px;
+    width: 90vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(188, 33, 245);
+}
+.logo img{
+    width: 100px;
+}
+.list ul{
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+    list-style-type: none;
+}
+.list li{
+    font-weight: 400;
+    font-size: 19px;
+}

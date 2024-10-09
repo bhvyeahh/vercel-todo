@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+body{
+  background-color: rgb(198, 74, 243);
+}
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 7px;              /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #2e2e2e;      /* Dark track background */
+  border-radius: 6px;       /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;   /* Thumb color */
+  border-radius: 6px;       /* Rounded corners */
+  border: 2px solid #2e2e2e; /* Padding around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #777777; 
+/* Thumb color on hover */
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #999;   /* Thumb color when active */
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #2e2e2e; /* Scrollbar corner color */
+}
