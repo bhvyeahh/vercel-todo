@@ -9,10 +9,6 @@ const Navbar = () => {
                 <img src={taskerlogo} alt="" />
             </div>
             <div className='list'>
-                <ul>
-                    <li>Home</li>
-                    <li>Your Tasks</li>
-                </ul>
             </div>
         </nav>
         

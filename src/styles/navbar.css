@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
 
 .navbar{
     color: rgb(255, 255, 255);
@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(188, 33, 245);
+    background-color: rgb(241, 236, 243);
 }
 .logo img{
     width: 100px;
